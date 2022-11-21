@@ -101,7 +101,7 @@ function ProStaking() {
             </div>
           </div>
           <Typography variant="xs" weight={700} className="py-0 px-4 text-[1rem] text-high-emphesis bg-[#eb4326]">
-            {`WARNING: THIS FEATURE IS STILL IN THE EXPERIMENTAL/TESTING STAGE. IT IS NOT RECOMMENDED TO STAKE MORE THAN 3% OF YOUR HOLDINGS! 
+            {`Pro/NFT Staking V3: 0x5A0C046439E6C033F7710d19270c64FEbdd6f924 WARNING: THIS FEATURE IS STILL IN THE EXPERIMENTAL/TESTING STAGE. IT IS NOT RECOMMENDED TO USE IT! 
 USE AT YOUR OWN RISK!`}
           </Typography>
         </div>
