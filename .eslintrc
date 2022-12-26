@@ -11,9 +11,10 @@
       }
     ],
     "@typescript-eslint/no-unused-vars": "off",
-    "simple-import-sort/exports": "error",
+    "simple-import-sort/exports": "off",
     "simple-import-sort/imports": "warn",
-    "unused-imports/no-unused-imports": "error",
-		"unused-imports/no-unused-vars": "off"
+    "unused-imports/no-unused-imports": "off",
+		"unused-imports/no-unused-vars": "off",
+    "react-hooks/rules-of-hooks": "off" // Checks rules of Hooks
   }
 }

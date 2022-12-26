@@ -30,7 +30,7 @@ const DEFAULT_CHAIN_ID = '19'
 export function middleware(req: NextRequest) {
   // const response = NextResponse.next()
 
-  const chainId = req.cookies['chain-id']
+  const chainId = req.cookies.get('chain-id')
 
   const subdomain = req.headers.get('host')?.split('.')[0]
 
@@ -42,7 +42,7 @@ export function middleware(req: NextRequest) {
   }
 
   // set the `cookie`
-  res.cookie(
+  res.cookies.set(
     'chain-id',
     subdomain && subdomain in SUBDOMAIN_CHAIN_ID ? SUBDOMAIN_CHAIN_ID[subdomain] : DEFAULT_CHAIN_ID,
     { sameSite: 'none', secure: true }
